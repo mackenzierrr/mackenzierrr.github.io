@@ -9,3 +9,25 @@ function sendEmail() {
         ()=> alert("Email sent!").catch(()=>alert("Email not sent."))
     )
 }
+
+function toggleDiv() {
+    const elements = document.querySelectorAll(".hiddenProjectCard");
+    elements.forEach(x => {
+        if (x.style.display === "none" || x.style.display === "") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    });
+}
+
+// function toggleDivById() {
+//     var x = document.getElementsByClassName("hiddenDevLogCard")[0]; // Access the first element
+//     if (x) { // Check if the element was found
+//         if (x.style.display === "none" || x.style.display === "") {
+//             x.style.display = "block"; // Show the div
+//         } else {
+//             x.style.display = "none"; // Hide the div
+//         }
+//     }
+// }

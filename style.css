@@ -13,6 +13,7 @@ html{
     align-items: center;
 }
 
+
 h1, h2, h3, h4{
     font-family: Lemonada;
 }
@@ -274,4 +275,56 @@ textarea{
 .fadeImgSizing {
     width: 300px;
     height: 395px;
+}
+
+/* scrapbook page styling */
+.dropdownButton{
+    background-color: #7FB2f0;
+    color: white;
+    padding: 20px;
+    border: 4px double #b2f07f;
+    border-radius: 20px;
+    font-family: Lemonada;
+    font-size: 30px;
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.hiddenProjectCard{
+    background-color: #c2d8f8;
+    margin: 20px;
+    border: 4px double #7FB2f0;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 350px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    padding: 15px;
+    overflow-y: auto; 
+    height: 500px;
+}
+.devLogCard{
+    background-color: white;
+    margin: 20px;
+    border: 4px double #7FB2f0;
+    border-radius: 10px;
+    text-align: left;
+    width: 350px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
